@@ -8,7 +8,7 @@ const listOfPairs_t mystrings{
 
 listOfPairs_t encrypt() {
 	listOfPairs_t encryptedList;
-
+	 
 	for (auto wordPair : mystrings) {
 		pair<string, string> msg = {"",""};
 		for (auto letter : wordPair.first) {
